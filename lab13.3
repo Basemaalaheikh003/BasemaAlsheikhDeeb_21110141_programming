@@ -1,0 +1,57 @@
+public class PainReliever extends Tablet {
+private int DosageUnit;
+private int UseWithinDays ;
+
+ 
+
+
+
+ 
+
+public PainReliever(int DosageUnit,int UseWithinDays, String name ,int NoOfpieces) {
+  super(name,NoOfpieces);
+  setname(name);
+  setNoOfpieces(NoOfpieces);
+
+    this.DosageUnit = DosageUnit;
+
+    this.UseWithinDays = UseWithinDays;
+}
+
+ 
+
+ 
+
+//public Building() {}
+
+ 
+
+ 
+
+public int getDosageUnit() {
+    return DosageUnit;
+}
+
+ 
+
+ 
+
+public void setDosageUnit(int DosageUnit) {
+    this.DosageUnit = DosageUnit;
+}
+
+ 
+
+ 
+
+public int getUseWithinDays() {
+    return UseWithinDays;
+}
+
+ 
+
+ 
+
+public void setUseWithinDays(int UseWithinDays) {
+    UseWithinDays = UseWithinDays;
+}
