@@ -1,0 +1,47 @@
+package Inheritance;
+ 
+public class Tablet extends Drug {
+private String name;
+private int NoOfpieces ;
+ 
+
+ 
+public Drug(String name ,int NoOfpieces, String category, String DateOfmanufacture, string compay) {
+  super(category,DateOfmanufacture,compay);
+  setcatogry(catogry);
+  setDateOfmanufacture(DateOfmanufacture);
+  setcompay(compay);
+    this.name = name;
+    this.NoOfpieces = NoOfpieces;
+}
+ 
+ 
+//public Building() {}
+ 
+ 
+public String getname() {
+    return name;
+}
+ 
+ 
+public void setname(String name) {
+    this.name = name;
+}
+ 
+ 
+public int getNoOfpieces() {
+    return NoOfpieces;
+}
+ 
+ 
+public void setNoOfpieces(int NoOfpieces) {
+    NoOfpieces = NoOfpieces;
+}
+ 
+ 
+
+  public void print()
+{
+    System.out.println("name is " + name);
+    System.out.println("num of " + NoOfpieces);
+}
